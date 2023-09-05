@@ -1,0 +1,55 @@
+{
+    "schema": "https://json-schema.org/draft/2019-09/schema",
+    "id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "EDit Book Schema",
+    "required": [
+        "amazon_url",
+        "author",
+        "language",
+        "publisher"
+    ],
+    "properties": {
+        "amazon_url": {
+            "type": "string",
+            "default": "",
+            "title": "The amazon_url Schema",
+            "examples": [
+                "http://a.co/eobPtX2"
+            ]
+        },
+        "author": {
+            "type": "string",
+            "default": "",
+            "title": "The author Schema",
+            "examples": [
+                "Matthew Lane"
+            ]
+        },
+        "language": {
+            "type": "string",
+            "default": "",
+            "title": "The language Schema",
+            "examples": [
+                "english"
+            ]
+        },
+        "publisher": {
+            "type": "string",
+            "default": "",
+            "title": "The publisher Schema",
+            "examples": [
+                "Princeton University Press"
+            ]
+        }
+    },
+    "examples": [
+        {
+            "amazon_url": "http://a.co/eobPtX2",
+            "author": "Matthew Lane",
+            "language": "english",
+            "publisher": "Princeton University Press"
+        }
+    ]
+}
